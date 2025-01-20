@@ -6,5 +6,4 @@ import pytest
 def open_litres(page: Page):
     page.goto('https://www.litres.ru/')
 
-
     yield page

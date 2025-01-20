@@ -6,7 +6,7 @@ async def main():
         browser = await p.chromium.launch(headless=False)
         page = await browser.new_page()
         await page.goto('https://bigtesty.ru/simulators/interview')
-        await page.screenshot(path='screenshot/interwiew.png')
+        await page.screenshot(path='playwright_youtube/screenshot/interwiew.png')
         await browser.close()
 
 
