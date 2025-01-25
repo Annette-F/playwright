@@ -1,4 +1,4 @@
-1. Playwright on Youtube, course by German Vargin 'Playwright с нуля'
+1. Playwright on Youtube - 'Playwright с нуля'
 
 https://www.youtube.com/playlist?list=PLXFaXx3Pg2MOJwUOXpfpQDcx2UJfQLS4i
 

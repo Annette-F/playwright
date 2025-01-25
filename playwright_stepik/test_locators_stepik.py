@@ -1,4 +1,4 @@
-from playwright.sync_api import sync_playwright, Page, expect
+from playwright.sync_api import Page, expect
 import os
 
 
@@ -139,7 +139,7 @@ def test_download(page: Page):
 
     download = download_info.value
     file_name = download.suggested_filename
-    destination_folder_path = './Downloads'
+    destination_folder_path = 'Downloads'
     download.save_as((os.path.join(destination_folder_path, file_name)))
 
 

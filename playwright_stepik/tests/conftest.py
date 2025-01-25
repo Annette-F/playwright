@@ -1,4 +1,6 @@
 import pytest
+from playwright_stepik.pages.login_page import LoginPage
+from playwright_stepik.pages.dashboard_page import DashboardPage
 
 
 @pytest.fixture(scope='session')
@@ -27,3 +29,13 @@ def browser_context_args_cookies(browser_context_args_cookies):
             ]
         },
     }
+
+
+@pytest.fixture()
+def login_page(page):
+    return LoginPage(page)
+
+
+@pytest.fixture()
+def dashboard_page(page):
+    return DashboardPage(page)

@@ -1,4 +1,4 @@
-from playwright.sync_api import Playwright, Page, sync_playwright, Route, expect
+from playwright.sync_api import Page, Route, expect
 
 
 def test_listen_network(page: Page):
